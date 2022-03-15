@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<script>
+    	fetch('https://8irbjfvi61.execute-api.us-east-1.amazonaws.com/Dev/method')
+			.then(response => response.json())
+        	.then((data) => {
+				console.log(data)
+            	document.getElementById('count').innerText = data
+			});
+		fetch('https://8irbjfvi61.execute-api.us-east-1.amazonaws.com/Dev/method', {method: 'PUT'})
+	</script>
+	<title>Paulius Marcinkevicius - Resume</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/yui/2.9.0/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
+
+	
+</head>
+<body>
+
+<div id="doc2" class="yui-t7">
+	<div id="inner">
+	
+		<div id="hd">
+			<div class="yui-gc">
+				<div class="yui-u first">
+					<h1>Paulius Marcinkevicius</h1>
+				</div>
+
+				<div class="yui-u">
+					<div class="contact-info">
+						<h3><a id="pdf" href="pm-resume.pdf">Download PDF</a></h3><br><br><br>
+						<h3><img src="images/icons-linkedin.png">&nbsp<a href="https://www.linkedin.com/in/pauliusmarcinkevicius/">LinkedIn</a></h3>
+						<h3><img src="images/icons-github.png">&nbsp<a href="https://github.com/pmarcink">GitHub</a></h3>
+						<h3><img src="images/icons-gmail.png">&nbsp<a href="mailto:paul@pmarcinkevicius.com">paul@pmarcinkevicius.com</a></h3>
+						<h3><img src="images/icons-phone.png">&nbsp(843)-540-1208</h3>
+					</div><!--// .contact-info -->
+				</div>
+			</div><!--// .yui-gc -->
+		</div><!--// hd -->
+
+		<div id="bd">
+			<div id="yui-main">
+				<div class="yui-b">
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Profile</h2>
+						</div>
+						<div class="yui-u">
+							<p class="enlarge">
+								 Motivated, eager NOC Engineer with multiple years of Networking and Systems experience, seeking to obtain an opportunity to work in a 
+								cloud engineering related role, where I can leverage current experience as well as develop my skillset and excel at my duties.
+							</p>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Certifications</h2>
+						</div>
+						<div class="yui-u">
+
+								<div class="talent">
+
+									<h2>AWS Solutions Architect - Associate 							
+									<a href="https://www.credly.com/badges/c4507fa9-9ae6-4e2a-a0c6-1ceac656ee14/public_url"><img src="images/saac02.png"></a></h2>
+
+									</div>
+								</div>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Skill & Tool Experience</h2>
+						</div>
+						<div class="yui-u">
+							<ul class="talent">
+									<li>Python Scripting</li>
+									<li>Docker</li>
+									<li>SIP, RTP/VoIP</li>	
+							</ul>
+							<ul class="talent">
+									<li>Logging/Debug</li>
+									<li>Virtualization</li>
+									<li>Linux/Windows Servers</li> 
+							</ul>
+							<ul class="talent">
+									<li>AWS Cloud Architecture (VPC, EC2, ECS, Cloudfront)</li>
+									<li>Cisco Telepresence (UCS, CUCM, VCS-C/E, Webex)</li> 
+							</ul>
+						</div>
+					</div><!--// .yui-gf-->
+
+					<div class="yui-gf first">
+						<div class="yui-u first">
+							<h2>Projects</h2>
+						</div>
+						<div class="yui-u">
+							<h2>Cloud Resume Challenge</h2>
+							<h3>This site! <br>
+								<strong>(lots of stuff lol)</strong> </h3>
+								<br>
+							<h2>Home Lab - Unraid Server</h2>
+							<h3>Installed/Configured Home Lab server, using various hardware as well as Unraid OS. Serving multiple functionalities, such as 
+								media content delivery over the Internet, a local DNS server configured to be synced and redundant with another instance of the DNS running on Raspberry PI, and local storage.
+								Most services that the server delivers are via Docker containers to provide lower admin overhead and streamlined upkeep. <br>
+								<strong>(Docker, Linux, High Availability)</strong> </h3>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf last">
+						<div class="yui-u first">
+							<h2>Work Experience</h2>
+						</div><!--// .yui-u -->
+
+						<div class="yui-u">
+
+							<div class="job">
+								<h2>Mitel</h2>
+								<h3>NOC Monitoring Engineer</h3>
+								<h4>April 2021 - Present</h4>
+								<p>Worked on the Mitel Global NOC team, responsible for monitoring the infrastructure for the delivery of Connect and Sky
+									services, on both on premise and cloud hosted servers. Also gained additional duties to represent the Incident
+									Management team to assist and drive for issue resolution on priority system impacting events/outages</p>
+									<li>Utilized knowledge of both Linux and Windows systems that were hosted mainly on the Google Cloud Platform,
+										as well as some on premise for quick investigation and diagnosis of various alerts to validate system health</li>
+									<li>Facilitated issue resolution on larger scale outages or events by driving issue resolution via incident bridges,
+										working with DevOps engineers to minimize customer impact, or on smaller non-time sensitive issues by
+										escalating via JIRA to responsible parties</li>
+							</div>
+
+							<div class="job">
+								<h2>Cisco Systems - Insight Global </h2>
+								<h3>Telepresence Engineer, Tier II</h3>
+								<h4>April 2020 - April 2021</h4>
+								<p>Worked on the Cisco Telepresence team, supporting several high profile companies with their Cisco Telepresence
+									integration by maintaining infrastructure with both troubleshooting and routine maintenance and updates to the hosts
+									and underlying systems. </p>
+									<li>Joined team directly as a Tier II technician, with this responsibilities were more focused on the infrastructure
+										supporting the Telepresence product, rather than any individual endpoints</li>
+									<li>Mentored junior technicians in troubleshooting, testing various issues related to Telepresence including
+										troubleshooting SIP/RTP, networks, and host systems in Linux, Windows or proprietary Cisco Products</li>
+									<li>Supported the Webex service as an addition/integration to the Telepresence product via various methods
+										depending on issue presented, such as debugging and log analysis for the Kamailio Service, or testing SIP call
+										flows to ensure they are being sent and directed to appropriate trunking from the on-premises infrastructure</li>
+									
+							</div>
+
+							<div class="job">
+								<h2>Hargray Communications</h2>
+								<h3>NOC Technician</h3>
+								<h4>December 2019 - April 2020</h4>
+								<p>Performed proactive monitoring and surveillance of the Hargray network infrastructure to ensure expedient response to
+									service outages that affected multiple customers, or customers with SLA requirements. Provided support to technicians
+									both in the field, and other departments to expedite service installation and restoration. </p>
+									<li>Worked on various delivery and transport systems and methods for both residential, commercial, and carrier
+										services</li>
+									<li>Coordinated and tracked outage restoration as well as network maintenance</li>
+									<li>Gained exposure and practical experience to working with delivery protocols and methods such as BGP, DNS, video encode/transcode, T-1, TCP/IP</li>
+							</div>
+
+							<div class="job">
+								<h2>Hargray Communications</h2>
+								<h3>TAC Supervisor</h3>
+								<h4>June 2017 - December 2019</h4>
+								<p>Supervised the TAC team and handled recruiting, training of new hires as well as development of existing hires. Took
+									charge of various projects and responsibilities, including scheduling, introducing new skill sets into the department </p>
+									<li>Developed processes, guidelines, and training documentation for duties and responsibilities of the TAC
+										technicians</li>
+									<li>Was in charge of Workforce Management as an added responsibility, taking care of scheduling for the TAC as well
+										as the sales departments</li>
+									<li>Facilitated the launch of various new responsibilities for the department as a whole, both developed and
+										delivered training for introducing business high-speed troubleshooting, IP PBX Circuits, as well as various new
+										equipment to ease the launch process</li>
+									<li>Maintained the Noble Harmony IVR by adjusting ACD Queues, updating menu options and messaging to keep
+										customers in the loop about any maintenance or outages affecting them</li>
+							</div>
+
+							<div class="job last">
+								<h2>Hargray Communications</h2>
+								<h3>TAC Technician</h3>
+								<h4>February 2015 - June 2017</h4>
+								<p>Supported customer troubles via phone, e-mail, and chat from all Hargray markets regarding service troubles with Voice,
+									Video, or High-Speed Data.</p>
+									<li>Consistently delivered a positive customer experience by being attentive and sympathetic to customers who
+										were having issues with their services</li>
+									<li>Collaborated with other departments at Hargray, such as the NOC, to identify and correct systems issues that
+										impacted multiple customers</li>
+									<li>Created ticketing related to troubles reported by customers to accurately describe both the customer
+										experience, and troubleshooting performed for both record keeping and as a point of reference for any other
+										technicians working on the issue to expedite resolution</li>
+							</div>
+
+						</div><!--// .yui-u -->
+					</div><!--// .yui-gf -->
+
+
+					
+
+
+				</div><!--// .yui-b -->
+			</div><!--// yui-main -->
+		</div><!--// bd -->
+
+		<div id="ft">
+			<p>Paulius Marcinkevicius &mdash; <a href="mailto:paul@pmarcinkevicius.com">paul@pmarcinkevicius.com</a> &mdash; (843)540-1208</p> <br>
+			<p>This page has been visited <span id="count"></span> times! </p>
+		</div><!--// footer -->
+
+	</div><!-- // inner -->
+
+
+</div><!--// doc -->
+
+
+</body>
+</html>
